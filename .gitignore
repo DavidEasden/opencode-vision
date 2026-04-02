@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.opencode/
+.claude/
+.agents/
+.vscode/
+.DS_Store

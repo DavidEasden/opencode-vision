@@ -1,0 +1,43 @@
+{
+  "name": "opencode-vision",
+  "version": "1.3.0",
+  "description": "OpenCode plugin that enables vision support for Minimax models by saving pasted images and injecting MCP tool instructions",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write src/**/*.ts",
+    "format:check": "prettier --check src/**/*.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "minimax",
+    "vision",
+    "mcp",
+    "image"
+  ],
+  "author": "devadathanmb",
+  "license": "AGPL-3.0",
+  "devDependencies": {
+    "@opencode-ai/plugin": "^1.2.26",
+    "@types/node": "^25.0.0",
+    "prettier": "^3.8.1",
+    "typescript": "^5.7.0"
+  },
+  "peerDependencies": {
+    "@opencode-ai/plugin": ">=1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devadathanmb/opencode-vision"
+  }
+}
