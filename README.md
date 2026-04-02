@@ -6,6 +6,8 @@ Originally built for [MiniMax](https://www.minimax.io/) models, it can be config
 
 It restores the "paste and ask" workflow by automatically saving image assets and routing them through a configured MCP image analysis tool such as `local_vision`.
 
+Compared with @devadathanmb/opencode-minimax-easy-vision, it doesn't save images from the clipboard to the local device.
+
 ## Table of Contents
 
 - [Demo](#demo)
@@ -253,3 +255,4 @@ AGPL-3.0. See [LICENSE](./LICENSE)
 - [MiniMax Official Website](https://www.minimax.io/)
 - [MiniMax Coding Plan MCP Repository](https://github.com/MiniMax-AI/MiniMax-Coding-Plan-MCP)
 - [MiniMax API Documentation](https://platform.minimax.io/docs/guides/coding-plan-mcp-guide)
+- [opencode-minimax-easy-vision](https://github.com/devadathanmb/opencode-minimax-easy-vision)
